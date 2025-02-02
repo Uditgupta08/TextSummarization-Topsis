@@ -29,7 +29,13 @@ TOPSIS is a method used to rank models based on their scores in the above criter
 This approach ensures an objective and fair comparison.
 
 ## Results
-Using **TOPSIS scores**, we ranked the models to find the best one for different summarization needs, such as:
+Using **TOPSIS scores**, we determined the **best overall model**:
+
+### **🏆 Best Model: M2 (`t5-small`)**
+Based on the evaluation, **M2 (`t5-small`)** achieved the highest rank across multiple summarization tasks. It performed consistently well in **ROUGE scores, readability, and compression ratio**, making it the most effective summarization model for various applications.
+
+### **Use Cases**
+M2 (`t5-small`) is highly effective for:
 - **News Summarization**: Summarizing long articles into key points.
 - **Legal Document Summarization**: Extracting important details from legal texts.
 - **Scientific Paper Summarization**: Making research findings easier to understand.
@@ -37,3 +43,5 @@ Using **TOPSIS scores**, we ranked the models to find the best one for different
 
 ---
 For more details, check the code and dataset used in this project.
+
+
